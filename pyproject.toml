@@ -1,0 +1,32 @@
+[project]
+
+name = "mlflow_example"
+version = "0.0.1"
+description = "MLFLow example"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Pavel Filonov", email = "filonovpv@gmail.om"},
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "mlflow==2.7.1",
+    "sqlalchemy==2.0.21",
+    "boto3==1.28.52",
+    "scikit-learn==1.3.1",
+    "python_dotenv==1.0.0",
+    "ipython==8.15.0",
+    "pymysql==1.1.0",
+    "httpie==3.2.2",
+]
+
+[tool.setuptools]
+packages = [
+    "example",
+]
